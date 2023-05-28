@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sabe que eu te amo né? ksks</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  </style>
+  <script>
+    function clickSim() {
+      window.location.href = 'https://youtube.com/shorts/sYwZoTXmgUU?feature=share';
+    }
+
+    function clickNao() {
+      // Nada acontece quando o botão "Não" é clicado
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Manda Fotinha do bumbum amor? ☺️🤭❤️<3</h1>
+    <button class="button" onclick="clickSim()">Sim</button>
+    <button class="button disabled" onclick="clickNao()" disabled>Não</button>
+  </div>
+</body>
+</html>
